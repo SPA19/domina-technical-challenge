@@ -11,7 +11,6 @@ import "./UserModule.css";
 
 //modulo principal de gestión de usuarios
 const UserModule = ({ onUserSelected, onStatsUpdate, initialConfig = {} }) => {
-
 	//obtener usuarios de la API
 	const { users, loading, error, refetch } = useUsers();
 
@@ -84,7 +83,7 @@ const UserModule = ({ onUserSelected, onStatsUpdate, initialConfig = {} }) => {
 	return (
 		<div className="user-module">
 			<div className="module-header">
-				<h2>Gestión de Usuarios Drenvio</h2>
+				<h2>Gestión de Usuarios Domina</h2>
 				<span className="badge">Micro Frontend</span>
 			</div>
 

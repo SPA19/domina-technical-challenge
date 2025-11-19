@@ -1,4 +1,4 @@
-# Gestión de Usuarios - Micro Frontends
+# Gestión de Usuarios - Micro Frontends Domina
 
 Aplicación de usuarios con arquitectura de micro frontends. React + Vite + Module Federation .
 
@@ -12,7 +12,7 @@ Aplicación de usuarios con arquitectura de micro frontends. React + Vite + Modu
 ## Instalación
 
 ```bash
-git clone https://github.com/SPA19/drenvio-technical-challenge
+git clone https://github.com/SPA19/domina-technical-challenge
 cd tu-repo
 
 # Instalar dependencias
@@ -101,4 +101,4 @@ remotes: {
 
 ---
 
-Prueba Técnica Drenvio - 2025 Simón Posada A
+Prueba Técnica Domina - 2025 Simón Posada A

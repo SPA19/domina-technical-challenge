@@ -29,8 +29,8 @@ function App() {
 		<div className="app">
 			{/*header */}
 			<header className="header">
-				<h1>✉️ Aplicación Usuarios Drenvio</h1>
-				<p>Prueba Técnica Drenvio</p>
+				<h1>✉️ Aplicación Usuarios Domina</h1>
+				<p>Prueba Técnica Domina</p>
 			</header>
 
 			{/*panel de estadisticas */}
@@ -107,7 +107,7 @@ function App() {
 			{/*footer*/}
 			<footer className="footer">
 				<p>
-					© 2025 Arquitectura de Micro Frontends con Vite + React  • Desarrollado
+					© 2025 Arquitectura de Micro Frontends con Vite + React • Desarrollado
 					por Simón Posada Acosta
 				</p>
 			</footer>
