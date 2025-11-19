@@ -12,7 +12,7 @@ Aplicación de usuarios con arquitectura de micro frontends. React + Vite + Modu
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/drenvio-challenge.git
+git clone https://github.com/SPA19/drenvio-technical-challenge
 cd tu-repo
 
 # Instalar dependencias
