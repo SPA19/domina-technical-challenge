@@ -3,8 +3,7 @@ import UserModule from "./UserModule";
 import "./App.css";
 
 
- // Aplicación standalone para testing del micro frontend
- // Esta versión no se expone
+// aplicacion standalone para desarrollo
 
 function App() {
 	const [stats, setStats] = useState({});
@@ -28,7 +27,7 @@ function App() {
 				<p>Puerto 5001 - Desarrollo Independiente</p>
 			</div>
 
-			{/* Panel de estadisticas */}
+			{/* panel de estadisticas */}
 			<div className="standalone-stats-panel">
 				<h3>📊 Estadísticas en Tiempo Real</h3>
 				<div className="stats-grid">
@@ -88,7 +87,7 @@ function App() {
 				</div>
 			)}
 
-			{/* Micro Frontend */}
+			{/* micro Frontend */}
 			<div className="standalone-mfe-container">
 				<UserModule
 					onStatsUpdate={handleStatsUpdate}
@@ -97,7 +96,7 @@ function App() {
 				/>
 			</div>
 
-			{/* Footer */}
+			{/* footer */}
 			<div className="standalone-footer">
 				<p>
 					Este es el modo de desarrollo standalone del Micro Frontend.

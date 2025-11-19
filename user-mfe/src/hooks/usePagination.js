@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 
-//Este es un custom hook para manejar la paginación de una lista de elementos
+//es un custom hook para manejar la paginación de una lista de elementos
 export const usePagination = (items, itemsPerPage = 5) => {
 	const [currentPage, setCurrentPage] = useState(1);
 

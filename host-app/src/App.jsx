@@ -29,7 +29,7 @@ function App() {
 		<div className="app">
 			{/*header */}
 			<header className="header">
-				<h1>✉️ Aplicación Usuarios</h1>
+				<h1>✉️ Aplicación Usuarios Drenvio</h1>
 				<p>Prueba Técnica Drenvio</p>
 			</header>
 
