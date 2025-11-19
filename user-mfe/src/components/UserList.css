@@ -1,0 +1,19 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.no-results {
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.no-results p {
+  margin: 0;
+  font-size: 16px;
+}

@@ -1,0 +1,98 @@
+.user-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.user-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.user-name {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-id {
+  background-color: #667eea;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.user-basic-info {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.user-basic-info p {
+  margin: 5px 0;
+}
+
+.expand-button {
+  background-color: #ecf0f1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  width: 100%;
+}
+
+.expand-button:hover {
+  background-color: #d5dbdb;
+}
+
+.user-expanded-info {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ecf0f1;
+}
+
+.info-section {
+  margin-bottom: 15px;
+}
+
+.section-title {
+  font-size: 16px;
+  color: #667eea;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.catch-phrase {
+  font-style: italic;
+  color: #7f8c8d;
+  margin: 5px 0;
+}
+
+.bs {
+  font-size: 14px;
+  color: #95a5a6;
+}
+
+.website-link {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.website-link:hover {
+  text-decoration: underline;
+}

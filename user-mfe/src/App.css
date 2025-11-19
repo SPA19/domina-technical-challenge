@@ -1,0 +1,137 @@
+.standalone-app {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.standalone-header {
+  background: #667eea;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.standalone-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+}
+
+.standalone-header p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.standalone-stats-panel {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.standalone-stats-panel h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.stat-box {
+  background: #e3e4e6d7;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.stat-value {
+  display: block;
+  color: #667eea;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.search-indicator {
+  background: #e3f2fd;
+  padding: 12px;
+  border-radius: 6px;
+  color: #1976d2;
+  margin-top: 15px;
+}
+
+.standalone-selected-user {
+  background: #fff3e0;
+  border: 2px solid #ff9800;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.standalone-selected-user h3 {
+  margin: 0 0 10px 0;
+  color: #e65100;
+}
+
+.user-details {
+  background: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.user-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.clear-button {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clear-button:hover {
+  background: #ee5a6f;
+}
+
+.standalone-mfe-container {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.standalone-footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.standalone-footer p {
+  margin: 0;
+  line-height: 1.6;
+  opacity: 0.9;
+}
